@@ -9,6 +9,10 @@ class SimpleGit
     command("git status")
   end
 
+  def commit(message)
+    command("git commit -m '#{message}'")
+  end
+
   def show(treeish = 'master')
     command("git show #{treeish}")
   end
