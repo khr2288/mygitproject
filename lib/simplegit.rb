@@ -13,6 +13,10 @@ class SimpleGit
     command("git commit -m '#{message}'")
   end
 
+  def add(path)
+    command("git add #{path}")
+  end
+
   def show(treeish = 'master')
     command("git show #{treeish}")
   end
