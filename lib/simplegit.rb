@@ -37,6 +37,7 @@ class SimpleGit
     command("git ls-files --stage")
   end
 
+
   private
   
     def command(git_cmd)
