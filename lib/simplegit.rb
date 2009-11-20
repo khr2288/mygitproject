@@ -13,7 +13,7 @@ class SimpleGit
     "My Git Project"
   end
 
-  def testmethod1
+  def testmethod_experiment
     "My Git Project"
   end
 
