@@ -13,6 +13,10 @@ class SimpleGit
     "My Git Project"
   end
 
+  def testmethod1
+    "My Git Project"
+  end
+
   private
   
     def command(git_cmd)
