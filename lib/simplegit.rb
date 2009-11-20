@@ -19,6 +19,10 @@ class SimpleGit
 
   private
   
+  def testmethod_experiment1
+    "My Git Project experiment branch method 1"
+  end
+
     def command(git_cmd)
       Dir.chdir(@git_dir) do
         return `#{git_cmd} 2>&1`.chomp
