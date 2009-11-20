@@ -17,6 +17,10 @@ class SimpleGit
     "My Git Project master branch method"
   end
 
+  def testmethod_master1
+    "My Git Project master branch method 1"
+  end
+
   private
   
     def command(git_cmd)
