@@ -14,7 +14,7 @@ class SimpleGit
   end
 
   def testmethod_experiment
-    "My Git Project"
+    "My Git Project's experiment branch method"
   end
 
   private
