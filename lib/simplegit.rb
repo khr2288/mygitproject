@@ -20,7 +20,15 @@ class SimpleGit
   def testmethod_master1
     "My Git Project master branch method 1"
   end
+  
+  def testmethod_experiment
+    "My Git Project experiment branch method"
+  end
 
+  def testmethod_experiment1
+    "My Git Project experiment branch method 1"
+  end
+  
   private
   
     def command(git_cmd)
