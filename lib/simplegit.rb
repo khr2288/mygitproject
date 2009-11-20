@@ -14,7 +14,7 @@ class SimpleGit
   end
 
   def testmethod_master
-    "My Git Project"
+    "My Git Project master branch method"
   end
 
   private
