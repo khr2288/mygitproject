@@ -8,6 +8,10 @@ class SimpleGit
   def show(treeish = 'master')
     command("git show #{treeish}")
   end
+  
+  def testmethod
+    "My Git Project"
+  end
 
   private
   
